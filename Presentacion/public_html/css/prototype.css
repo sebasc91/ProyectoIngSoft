@@ -1,0 +1,28 @@
+@charset "utf-8";
+#principal {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#principal #encabezado {
+	height: 159px;
+	width: 968px;
+	background-image: url(../img/encabezado.png);
+}
+#principal #informacion {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: 410px;
+}
+body {
+	background-image: url(../img/principal.png);
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#principal {
+}
