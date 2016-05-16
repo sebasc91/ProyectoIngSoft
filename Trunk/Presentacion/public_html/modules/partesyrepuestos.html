@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Partes y Repuestos</title>
+        <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/prototype.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="principal">
+            <div id="encabezado"></div>
+            <br><br><br><br>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="user" class="col-sm-5 control-label"> <span class="glyphicon glyphicon-tag"></span> REFERENCIA : </label>
+                        <div class="col-sm-4">
+                        <input type="user" class="form-control" id="user" placeholder="Numero de Referencia"></div>
+                        <br><br>
+                    <label for="user" class="col-sm-5 control-label"> <span class="glyphicon glyphicon-user"></span> NOMBRE : </label>
+                        <div class="col-sm-4">
+                        <input type="user" class="form-control" id="user" placeholder="Nombre de parte o repuesto"></div>
+                        <br><br>
+                    <label for="user" class="col-sm-5 control-label"> <span class="glyphicon glyphicon-usd"></span> VALOR : </label>
+                        <div class="col-sm-4">
+                        <input type="user" class="form-control" id="user" placeholder="Valor de parte o repuesto"></div>
+                        <br><br>
+                    <label for="user" class="col-sm-5 control-label"> <span class="glyphicon glyphicon-filter"></span> TIPO : </label>
+                        <div class="col-sm-4">   
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger">Tipo de Repuesto</button>
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="#">Parte Eléctrica</a></li>
+                                    <li><a href="#">Parte Mecánica</a></li>
+                                    <li><a href="#">Accesorios</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <br><br>
+                    <label for="user" class="col-sm-5 control-label"> <span class="glyphicon glyphicon-th-list"></span> TIPO UNIDAD : </label>
+                        <div class="col-sm-4">   
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-danger">Tipo Unidad</button>
+                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="#">Unidad</a></li>
+                                    <li><a href="#">Juego</a></li>
+                                    <li><a href="#">Docena</a></li>
+                                    <li><a href="#">Litro</a></li>
+                                    <li><a href="#">Metro</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="col-sm-offset-5 col-sm-5">
+                        <button type="submit" class="btn btn-danger">Crear <span class="glyphicon glyphicon-ok"></span> </button>
+                        <button type="edit" class="btn btn-danger">Editar <span class="glyphicon glyphicon-edit"></span> </button>   
+                        <button type="back" class="btn btn-danger"><a href="menu.html">Cancelar <span class="glyphicon glyphicon-chevron-left"></span> </button> 
+                    </div>
+                </div>
+            </form>
+        </div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
